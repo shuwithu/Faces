@@ -1,0 +1,624 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 18363.1500; Version 1909; 64bit' Language: 'en' Physical Memory: 16305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/swei/wkspaces/Faces/UnityFaces
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60590
+Successfully changed project path to: C:/Users/swei/wkspaces/Faces/UnityFaces
+C:/Users/swei/wkspaces/Faces/UnityFaces
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.78 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.54 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/swei/wkspaces/Faces/UnityFaces/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002666 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.790 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.82 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.4 MB.
+System memory in use after: 81.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 1.905200 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.073100 ms MarkObjects: 1.579200 ms  DeleteObjects: 0.070900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(00eb34e023cde84429e856a6e3b692ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(00eb34e023cde84429e856a6e3b692ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78f46bf9f569a07e4b3715f9b498964') in 0.040935 seconds
+  Import took 0.044686 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.0 MB.
+System memory in use after: 45.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 2.060100 ms (FindLiveObjects: 0.167800 ms CreateObjectMapping: 0.063100 ms MarkObjects: 1.814900 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 812.180621 seconds.
+  path: Assets/3Dassets
+  artifactKey: Guid(ffe7cbabd4f7b6a41a9721c95930eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets using Guid(ffe7cbabd4f7b6a41a9721c95930eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230addf788cabd0e828f946540eb749e') in 0.006419 seconds
+  Import took 0.010515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.649265 seconds.
+  path: Assets/3Dassets/stage.fbx
+  artifactKey: Guid(bca23046987613d44afa3341929ec694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/stage.fbx using Guid(bca23046987613d44afa3341929ec694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d41657741a397661702413c40746792') in 0.213550 seconds
+  Import took 0.216810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.028814 seconds.
+  path: Assets/Scenes/PROJECT.unity
+  artifactKey: Guid(0d66039f2b4ee2b45b57d01f71bf4a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PROJECT.unity using Guid(0d66039f2b4ee2b45b57d01f71bf4a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c301b380053e1a02b354a149e473fe5') in 0.007290 seconds
+  Import took 0.010872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.101360 seconds.
+  path: Assets/3Dassets/Avatar
+  artifactKey: Guid(448a7c02d4b052e4d9aab61d9f9505eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Avatar using Guid(448a7c02d4b052e4d9aab61d9f9505eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173d8afab5237895e3a6f32f2484bdee') in 0.006842 seconds
+  Import took 0.012427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.643569 seconds.
+  path: Assets/3Dassets/Avatars
+  artifactKey: Guid(448a7c02d4b052e4d9aab61d9f9505eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Avatars using Guid(448a7c02d4b052e4d9aab61d9f9505eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1690be6c7664eac07d54318e659e27b6') in 0.006712 seconds
+  Import took 0.010329 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 1.940200 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.102600 ms MarkObjects: 1.591200 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 1.785100 ms (FindLiveObjects: 0.165800 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.551800 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 1.708800 ms (FindLiveObjects: 0.183500 ms CreateObjectMapping: 0.068200 ms MarkObjects: 1.441500 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1718.149273 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonDisabled.png
+  artifactKey: Guid(40947ddc2dd4f0d499a92d0f3675c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonDisabled.png using Guid(40947ddc2dd4f0d499a92d0f3675c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fba98d8c218b0b1bff7435612f614d5') in 0.112024 seconds
+  Import took 0.117096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineHeaderMarkerIcon.png
+  artifactKey: Guid(4f8d98ef7dbbe3d469e14c04722cbeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineHeaderMarkerIcon.png using Guid(4f8d98ef7dbbe3d469e14c04722cbeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0de4e4aeb5ff7ea20b5a0a555e55246') in 0.013244 seconds
+  Import took 0.016980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonDisabled@2x.png
+  artifactKey: Guid(77d926c9a4ddcc940b8c000b45cbfb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonDisabled@2x.png using Guid(77d926c9a4ddcc940b8c000b45cbfb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80dda9c8cbb54b48036b74e1b0e40aa') in 0.015352 seconds
+  Import took 0.019397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonEnabled@2x.png
+  artifactKey: Guid(6192986415256ca47a97a97507406f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonEnabled@2x.png using Guid(6192986415256ca47a97a97507406f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb6a7372c89f51f704f4646d8f7e166') in 0.014116 seconds
+  Import took 0.017404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonEnabled.png
+  artifactKey: Guid(d18286874382ef042bbbdab5f71329c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonEnabled.png using Guid(d18286874382ef042bbbdab5f71329c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b643b04710453e8cb76f97b7e4340f03') in 0.014243 seconds
+  Import took 0.018383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonEnabled.png
+  artifactKey: Guid(2446ee609b613cd4e9142ccc55cb7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineCollapseMarkerButtonEnabled.png using Guid(2446ee609b613cd4e9142ccc55cb7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d36450b307f849cab192fae17977834') in 0.014665 seconds
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonDisabled.png
+  artifactKey: Guid(b3644a971cca0bd4eb357cb9aca4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMarkerButtonDisabled.png using Guid(b3644a971cca0bd4eb357cb9aca4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ca85d31ecb01ac1f7ab5fa5d34b52c') in 0.014267 seconds
+  Import took 0.017708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.260962 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Layouts/main-window.uxml
+  artifactKey: Guid(0fc258eba97959a4bbc9d04f35188e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Layouts/main-window.uxml using Guid(0fc258eba97959a4bbc9d04f35188e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3159b216c6a031bfdad9284e4da5581') in 0.016586 seconds
+  Import took 0.019702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Layouts/MainPageView.uxml
+  artifactKey: Guid(ff1bfb51c3ec34c4aaaeb29a0343f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Layouts/MainPageView.uxml using Guid(ff1bfb51c3ec34c4aaaeb29a0343f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02205c21f4b88c573ccbf1dd9276841') in 0.007503 seconds
+  Import took 0.010616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Styles/MainPageView.uss
+  artifactKey: Guid(7af1720245a987d4b87094fc00ed8a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Styles/MainPageView.uss using Guid(7af1720245a987d4b87094fc00ed8a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41ef92db44f58b2a63c7e268a839beb') in 0.010672 seconds
+  Import took 0.014261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.618823 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png
+  artifactKey: Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png using Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bc5e9776dbe669047bc019b29e5fc5') in 0.013066 seconds
+  Import took 0.015971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/Timeline-Marker-Warning-Overlay.png
+  artifactKey: Guid(945f4ecec6df62244b9ebcc363833642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/Timeline-Marker-Warning-Overlay.png using Guid(945f4ecec6df62244b9ebcc363833642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9327da837cc1c592ee6dfdafca9f6577') in 0.012492 seconds
+  Import took 0.015153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004803 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineCollapseMarkerButtonDisabled.png
+  artifactKey: Guid(b80d5b6acdfbc114b9efab6295fd96c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineCollapseMarkerButtonDisabled.png using Guid(b80d5b6acdfbc114b9efab6295fd96c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29e3933deb4793a140680202008fb15') in 0.013862 seconds
+  Import took 0.017334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItem.png
+  artifactKey: Guid(c133595e3c100774496e03e66fa69259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItem.png using Guid(c133595e3c100774496e03e66fa69259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d828dc7d0ce9def07a95bbeffdf12e') in 0.013417 seconds
+  Import took 0.016681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItemSelected.png
+  artifactKey: Guid(b6e9dc9aad5843748a0124b8925c3743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItemSelected.png using Guid(b6e9dc9aad5843748a0124b8925c3743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3710eb2090f772571855047d2aa6928f') in 0.013873 seconds
+  Import took 0.017196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonEnabled@2x.png
+  artifactKey: Guid(c35a22ede3f5feb488bf69587ddc36ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonEnabled@2x.png using Guid(c35a22ede3f5feb488bf69587ddc36ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a1d03d6956b392edb3a615f145b81b') in 0.012882 seconds
+  Import took 0.015488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Packages/com.unity.xr.management/Editor/Unity.XR.Management.Editor.asmdef
+  artifactKey: Guid(f9fe0089ec81f4079af78eb2287a6163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/Editor/Unity.XR.Management.Editor.asmdef using Guid(f9fe0089ec81f4079af78eb2287a6163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b09370ae759f1a1d47d0b941a7a15f') in 0.007721 seconds
+  Import took 0.011185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItem.png
+  artifactKey: Guid(24b97c67b63a23b48bea4036d28a5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItem.png using Guid(24b97c67b63a23b48bea4036d28a5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672dfdf0f4f6a9d7ba0824f5da350f81') in 0.012536 seconds
+  Import took 0.015734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled.png
+  artifactKey: Guid(33a52b41b4de5874ca7da1da32067e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled.png using Guid(33a52b41b4de5874ca7da1da32067e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48f88fb2681a433e4ce5c8504fd3979') in 0.013960 seconds
+  Import took 0.016516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineHeaderMarkerIcon.png
+  artifactKey: Guid(bf1debab21103154b99778ba6e074175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineHeaderMarkerIcon.png using Guid(bf1debab21103154b99778ba6e074175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc4577f90710090878cbaa163133daa') in 0.013044 seconds
+  Import took 0.015869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled@2x.png
+  artifactKey: Guid(193dae938a3136440b693b45a2494737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled@2x.png using Guid(193dae938a3136440b693b45a2494737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6663156f14c775e432d1de845ef4b44') in 0.013529 seconds
+  Import took 0.016415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItemCollapsed.png
+  artifactKey: Guid(7d4691eba7565c34ab785c00fbc27ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItemCollapsed.png using Guid(7d4691eba7565c34ab785c00fbc27ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76c76c5b99ce8c900d39ca13c67785b') in 0.013326 seconds
+  Import took 0.016283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Packages/com.unity.xr.management/Tests/Editor/Unity.XR.Management.EditorTests.asmdef
+  artifactKey: Guid(f46fc3751c3e84133af5527f7c1abae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/Tests/Editor/Unity.XR.Management.EditorTests.asmdef using Guid(f46fc3751c3e84133af5527f7c1abae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985346f7664d8ae96f78b1ead7d18475') in 0.006771 seconds
+  Import took 0.010538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineCollapseMarkerButtonEnabled.png
+  artifactKey: Guid(0367ce1ebbbb18940b79eed63a0315d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineCollapseMarkerButtonEnabled.png using Guid(0367ce1ebbbb18940b79eed63a0315d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cbe55239a600e4ec3aa48c43745906') in 0.012930 seconds
+  Import took 0.016089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonEnabled.png
+  artifactKey: Guid(d1eccbb425fdacc4ba53ce4223f4ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonEnabled.png using Guid(d1eccbb425fdacc4ba53ce4223f4ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9090f701a6b4ca27b29e1c8c0aabb12') in 0.013554 seconds
+  Import took 0.016319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemCollapsed.png
+  artifactKey: Guid(f179d9a3cccffb04ba2e27f681e9b147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemCollapsed.png using Guid(f179d9a3cccffb04ba2e27f681e9b147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2b817d532ef8ef8040d4e22ffcfaf7') in 0.012849 seconds
+  Import took 0.015612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.unity.xr.management/Runtime/Unity.XR.Management.asmdef
+  artifactKey: Guid(e40ba710768534012815d3193fa296cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/Runtime/Unity.XR.Management.asmdef using Guid(e40ba710768534012815d3193fa296cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb3bbabe0cb95dab5b676b93489de1a') in 0.006501 seconds
+  Import took 0.009839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemSelected.png
+  artifactKey: Guid(3dd65256ca8837544b3e738c0d3ee0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemSelected.png using Guid(3dd65256ca8837544b3e738c0d3ee0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd385304e77870ff452a4b3b45185d81b') in 0.023785 seconds
+  Import took 0.026868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.291872 seconds.
+  path: Packages/com.unity.xr.management/Tests/Runtime/Unity.XR.Management.Tests.asmdef
+  artifactKey: Guid(0a731f4d44d04439bb291bdbaa8cb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/Tests/Runtime/Unity.XR.Management.Tests.asmdef using Guid(0a731f4d44d04439bb291bdbaa8cb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a140b3e351d88bdb213ba144e4dc81') in 0.006056 seconds
+  Import took 0.009573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.xr.management/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef
+  artifactKey: Guid(575f7633d101095488b014272f40d6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef using Guid(575f7633d101095488b014272f40d6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc710be809fe68d3cfea703c9c5428cc') in 0.006179 seconds
+  Import took 0.009484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Packages/com.unity.xr.management/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef
+  artifactKey: Guid(9b8b61ec9cb92d1439beb03814dc2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef using Guid(9b8b61ec9cb92d1439beb03814dc2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f39c29dbd4e2873563a99eafbcd87f') in 0.006703 seconds
+  Import took 0.009871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Packages/com.unity.xr.management/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef
+  artifactKey: Guid(c536cb714a8a9e84cb16ecf0330eea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef using Guid(c536cb714a8a9e84cb16ecf0330eea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8981f98c0dfd462c1736077f4b510c') in 0.007380 seconds
+  Import took 0.010543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.177590 seconds.
+  path: Assets/3Dassets/Materials
+  artifactKey: Guid(ed62048d486f22b4f8878068d71edccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Materials using Guid(ed62048d486f22b4f8878068d71edccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a96bed58465e341cfce78df16b29ba') in 0.006759 seconds
+  Import took 0.009871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.794164 seconds.
+  path: Assets/3Dassets/Models
+  artifactKey: Guid(292dfe95efe14ee44841f423be2b1917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Models using Guid(292dfe95efe14ee44841f423be2b1917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273b3df4789c116a182a51e6e58e3758') in 0.006273 seconds
+  Import took 0.010471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.259616 seconds.
+  path: Assets/3Dassets/Textures
+  artifactKey: Guid(8b8ca4d529d640648a8013572037930d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Textures using Guid(8b8ca4d529d640648a8013572037930d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43d3aa3172386d519232d93013dec52') in 0.006929 seconds
+  Import took 0.010563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.065024 seconds.
+  path: Assets/3Dassets/Materials/skybox.mat
+  artifactKey: Guid(48a06902f828db041bd7d907eb6c4c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Materials/skybox.mat using Guid(48a06902f828db041bd7d907eb6c4c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38c171576036e50975859a1968f5d52') in 0.044339 seconds
+  Import took 0.047913 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 1.706900 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.064000 ms MarkObjects: 1.447800 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 390.918625 seconds.
+  path: Assets/3Dassets/Textures/skybox.jpeg
+  artifactKey: Guid(b5bd11b0a3d6b2b4a914231ed507fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Textures/skybox.jpeg using Guid(b5bd11b0a3d6b2b4a914231ed507fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e89f55ac93f96aaa23f20c5f689dbfd') in 0.036616 seconds
+  Import took 0.040410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.927696 seconds.
+  path: Assets/3Dassets/Textures/skybox.jpeg
+  artifactKey: Guid(b5bd11b0a3d6b2b4a914231ed507fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Textures/skybox.jpeg using Guid(b5bd11b0a3d6b2b4a914231ed507fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7bcfbc3d9525355d6550611c87fc54') in 0.049137 seconds
+  Import took 0.052591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.931587 seconds.
+  path: Assets/Avatars
+  artifactKey: Guid(f6cc39650d6140648a6031a2eea78167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars using Guid(f6cc39650d6140648a6031a2eea78167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769442dfae55e9f2c736bffa6a230f8d') in 0.005350 seconds
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.232075 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(28f20ddba074ce14c8dc5afc612de272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(28f20ddba074ce14c8dc5afc612de272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2a85c5ee5e833e7487d8cbfffc6273') in 0.005893 seconds
+  Import took 0.009065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399507 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(02429365200c9e24fb4d6651e9dea966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(02429365200c9e24fb4d6651e9dea966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f742382823f9b5111551490840d107f3') in 0.005390 seconds
+  Import took 0.008624 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.534969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\swei\wkspaces\Faces\UnityFaces\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.415 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2356.
+Total: 1.814300 ms (FindLiveObjects: 0.241200 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.481900 ms  DeleteObjects: 0.017700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 46329.419418 seconds.
+  path: Assets/3Dassets/Materials/skybox.mat
+  artifactKey: Guid(48a06902f828db041bd7d907eb6c4c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Dassets/Materials/skybox.mat using Guid(48a06902f828db041bd7d907eb6c4c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b5e3b9669404046310768bdde36908') in 0.081154 seconds
+  Import took 0.084478 seconds .
+
